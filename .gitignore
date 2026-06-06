@@ -1,0 +1,24 @@
+# Flutter
+diamond_frontend/.dart_tool/
+diamond_frontend/build/
+diamond_frontend/.flutter-plugins
+diamond_frontend/.flutter-plugins-dependencies
+diamond_frontend/*.g.dart
+diamond_frontend/*.freezed.dart
+
+# Firebase (절대 커밋 금지)
+**/google-services.json
+**/GoogleService-Info.plist
+
+# 환경변수
+.env
+**/.env
+
+# IDE
+.idea/
+.vscode/
+
+# Spring Boot (나중에 backend 생길 때 대비)
+backend/build/
+backend/target/
+backend/.gradle/
